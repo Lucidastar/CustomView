@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mine.customviewtohy.SecondActivity">
+
+    <com.mine.customviewtohy.view.CustomImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:imageTitleText="这是一张很大的图片，然后看一下"
+        app:imageTitleTextColor="@color/colorPrimaryDark"
+        app:image="@mipmap/ic_launcher"
+        app:imageTitleTextSize="10sp"
+        app:imageScaleType="center"
+        android:padding="6dp"
+         />
+</android.support.constraint.ConstraintLayout>

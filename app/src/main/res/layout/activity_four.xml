@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mine.customviewtohy.FourActivity">
+
+    <com.mine.customviewtohy.view.CustomVolumControlBar
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:vFirstColor="#f41df4"
+        app:vSecondColor="#f43105"
+        app:vDotCount="12"
+        app:vSplitSize="16"
+        app:vBg="@mipmap/ic_launcher"
+        app:vCircleWidth="20dp"
+        />
+</android.support.constraint.ConstraintLayout>

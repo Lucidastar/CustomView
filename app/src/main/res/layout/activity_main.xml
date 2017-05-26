@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mine.customviewtohy.MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="自定义View(一)"
+            android:textAllCaps="false"
+            android:onClick="custom1"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="自定义View(二)进阶"
+            android:textAllCaps="false"
+            android:onClick="custom2"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="自定义View(三)圆环交替等待效果"
+            android:textAllCaps="false"
+            android:onClick="custom3"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="自定义View(四)视频音量调控"
+            android:textAllCaps="false"
+            android:onClick="custom4"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="手把手教您自定义ViewGroup"
+            android:textAllCaps="false"
+            android:onClick="custom5"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="深入理解Android中的自定义属性"
+            android:textAllCaps="false"
+            android:onClick="custom6"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="自定义View(四)视频音量调控"
+            android:textAllCaps="false"
+            android:onClick="custom4"
+            />
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
