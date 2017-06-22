@@ -58,6 +58,13 @@
         <attr name="vDotCount" />
         <attr name="vSplitSize" />
         <attr name="vBg" />
-
     </declare-styleable>
+
+    <declare-styleable name="CustomPayPsd">
+        <attr name="psdType" format="enum">
+            <enum name="weChat" value="0" />
+            <enum name="bottomLine" value="1" />
+        </attr>
+    </declare-styleable>
+
 </resources>

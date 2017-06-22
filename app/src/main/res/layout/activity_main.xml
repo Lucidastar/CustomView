@@ -61,6 +61,13 @@
             android:textAllCaps="false"
             android:onClick="custom4"
             />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="自定义View 密码"
+            android:textAllCaps="false"
+            android:onClick="custom7"
+            />
 
 
     </LinearLayout>
