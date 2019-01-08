@@ -1,0 +1,4 @@
+#Thu Jan 18 11:57:35 CST 2018
+base.0=G\:\\MrHanWork\\uploadGit\\CustomView\\JPushExample\\build\\intermediates\\transforms\\dexMerger\\debug\\1
+renamed.0=classes.dex
+file.0=G\:\\MrHanWork\\uploadGit\\CustomView\\JPushExample\\build\\intermediates\\transforms\\dexMerger\\debug\\1\\classes.dex

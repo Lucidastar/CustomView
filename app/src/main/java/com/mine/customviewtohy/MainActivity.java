@@ -34,4 +34,7 @@ public class MainActivity extends AppCompatActivity {
     public void custom7(View view){
         startActivity(new Intent(this,ServenActivity.class));
     }
+    public void custom8(View view){
+        startActivity(new Intent(this,SevenActivity.class));
+    }
 }

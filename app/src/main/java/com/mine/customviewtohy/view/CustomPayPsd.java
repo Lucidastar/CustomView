@@ -7,9 +7,9 @@ import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.RectF;
+import android.support.v7.widget.AppCompatEditText;
 import android.util.AttributeSet;
 import android.util.Log;
-import android.widget.EditText;
 
 import com.mine.customviewtohy.R;
 
@@ -19,7 +19,7 @@ import static android.graphics.Paint.ANTI_ALIAS_FLAG;
  * Created by qiuyouzone on 2017/6/22.
  */
 
-public class CustomPayPsd extends EditText {
+public class CustomPayPsd extends AppCompatEditText {
 
     private int padStyle = 0;
     private final static int psd_weixin = 0;

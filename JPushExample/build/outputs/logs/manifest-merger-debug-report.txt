@@ -1,18 +1,22 @@
 -- Merging decision tree log ---
 manifest
 ADDED from G:\MrHanWork\uploadGit\CustomView\JPushExample\AndroidManifest.xml:2:1-158:12
+INJECTED from G:\MrHanWork\uploadGit\CustomView\JPushExample\AndroidManifest.xml:2:1-158:12
+INJECTED from G:\MrHanWork\uploadGit\CustomView\JPushExample\AndroidManifest.xml:2:1-158:12
+INJECTED from G:\MrHanWork\uploadGit\CustomView\JPushExample\AndroidManifest.xml:2:1-158:12
+INJECTED from G:\MrHanWork\uploadGit\CustomView\JPushExample\AndroidManifest.xml:2:1-158:12
 	package
 		ADDED from G:\MrHanWork\uploadGit\CustomView\JPushExample\AndroidManifest.xml:3:5-28
 	android:versionName
 		ADDED from G:\MrHanWork\uploadGit\CustomView\JPushExample\AndroidManifest.xml:5:5-32
 		INJECTED from G:\MrHanWork\uploadGit\CustomView\JPushExample\AndroidManifest.xml
 		INJECTED from G:\MrHanWork\uploadGit\CustomView\JPushExample\AndroidManifest.xml
+	xmlns:android
+		ADDED from G:\MrHanWork\uploadGit\CustomView\JPushExample\AndroidManifest.xml:2:11-69
 	android:versionCode
 		ADDED from G:\MrHanWork\uploadGit\CustomView\JPushExample\AndroidManifest.xml:4:5-30
 		INJECTED from G:\MrHanWork\uploadGit\CustomView\JPushExample\AndroidManifest.xml
 		INJECTED from G:\MrHanWork\uploadGit\CustomView\JPushExample\AndroidManifest.xml
-	xmlns:android
-		ADDED from G:\MrHanWork\uploadGit\CustomView\JPushExample\AndroidManifest.xml:2:11-69
 uses-sdk
 ADDED from G:\MrHanWork\uploadGit\CustomView\JPushExample\AndroidManifest.xml:7:5-73
 	android:targetSdkVersion
@@ -105,10 +109,10 @@ application
 ADDED from G:\MrHanWork\uploadGit\CustomView\JPushExample\AndroidManifest.xml:39:5-157:19
 	android:label
 		ADDED from G:\MrHanWork\uploadGit\CustomView\JPushExample\AndroidManifest.xml:42:9-41
-	android:allowBackup
-		ADDED from G:\MrHanWork\uploadGit\CustomView\JPushExample\AndroidManifest.xml:41:9-36
 	android:icon
 		ADDED from G:\MrHanWork\uploadGit\CustomView\JPushExample\AndroidManifest.xml:40:9-45
+	android:allowBackup
+		ADDED from G:\MrHanWork\uploadGit\CustomView\JPushExample\AndroidManifest.xml:41:9-36
 	android:name
 		ADDED from G:\MrHanWork\uploadGit\CustomView\JPushExample\AndroidManifest.xml:43:9-64
 activity#com.example.jpushdemo.MainActivity
