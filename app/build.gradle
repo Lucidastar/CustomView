@@ -1,15 +1,27 @@
 apply plugin: 'com.android.application'
-
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
 android {
-    compileSdkVersion 28
-//    buildToolsVersion "26.0.2"
+    compileSdkVersion rootProject.android.compileSdkVersion
+    buildToolsVersion rootProject.android.buildToolsVersion
     defaultConfig {
-        applicationId "com.mine.customviewtohy"
-        minSdkVersion 15
-        targetSdkVersion 28
-        versionCode 1
-        versionName "1.0"
+        applicationId rootProject.android.applicationId
+        minSdkVersion rootProject.android.minSdkVersion
+        targetSdkVersion rootProject.android.targetSdkVersion
+        versionCode rootProject.android.versionCode
+        versionName rootProject.android.versionName
+        multiDexEnabled rootProject.android.multiDexEnabled
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        //分包
+
+        manifestPlaceholders = [UMENG_CHANNEL_VALUE: "umeng"]
+
+
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
     }
     buildTypes {
         release {
@@ -24,8 +36,12 @@ dependencies {
     androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
-    implementation 'com.android.support:appcompat-v7:28.0.0'
-    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    implementation rootProject.depsLibs.corektx
+
+    implementation rootProject.depsLibs.appcompact
+    implementation rootProject.depsLibs.design
+    implementation rootProject.depsLibs.recyclerview
+    implementation rootProject.depsLibs.constraint
     implementation 'com.nineoldandroids:library:2.4.0'
     androidTestImplementation 'junit:junit:4.12'
 }

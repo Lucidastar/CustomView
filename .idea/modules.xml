@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/CustomView.iml" filepath="$PROJECT_DIR$/CustomView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/CustomView-app.iml" filepath="$PROJECT_DIR$/app/CustomView-app.iml" group="CustomView/app" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/uploadGit-CustomView.iml" filepath="$PROJECT_DIR$/uploadGit-CustomView.iml" group="CustomView" />
     </modules>
   </component>
 </project>

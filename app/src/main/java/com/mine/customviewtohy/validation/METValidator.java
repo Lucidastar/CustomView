@@ -1,6 +1,7 @@
 package com.mine.customviewtohy.validation;
 
-import android.support.annotation.NonNull;
+
+import androidx.annotation.NonNull;
 
 /**
  * Base Validator class to either implement or inherit from for custom validation
