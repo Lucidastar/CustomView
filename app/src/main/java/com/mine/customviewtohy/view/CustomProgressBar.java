@@ -95,7 +95,7 @@ public class CustomProgressBar extends View {
 
     @Override
     protected void onDraw(Canvas canvas) {
-        Log.i("---->", "onDraw: ");
+//        Log.i("---->", "onDraw: ");
         int center = getWidth() / 2;
         int radius = center - mProgressStrokeWidth / 2;
         mRectF.left = center - radius;
@@ -130,7 +130,7 @@ public class CustomProgressBar extends View {
             width = (int) getContext().getResources().getDimension(R.dimen.width);
         }
 
-        Log.i("---->", "onMeasure: ");
+//        Log.i("---->", "onMeasure: ");
         setMeasuredDimension(width, width);
     }
 }

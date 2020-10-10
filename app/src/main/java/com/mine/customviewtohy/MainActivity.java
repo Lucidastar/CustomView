@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(new Intent(this,SecondActivity.class));
     }
     public void custom3(View view){
-        startActivity(new Intent(this,ThressActivity.class));
+        startActivity(new Intent(this, ThreeActivity.class));
     }
     public void custom4(View view){
         startActivity(new Intent(this,FourActivity.class));
